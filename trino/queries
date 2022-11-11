@@ -1,0 +1,13 @@
+--Simple query on flat data: review the fields in the countries data set
+SELECT * FROM demo.countries WHERE country='Mexico';
+
+--Aggregation query: five countries with highest per capita gdp
+SELECT country, continent, gdppc FROM demo.countries 
+ORDER BY gdppc DESC LIMIT 5;
+
+--Federated query: number of wineries and per capita gdp in each continent
+SELECT continent, avg_gdppc, num_wineries 
+FROM (SELECT continent, cast(avg(gdppc) AS INTEGER) AS avg_gdppc, count(*) AS num_wineries 
+FROM demo.countries, demo.wine_reviews 
+WHERE json_extract_scalar(wine_bin,'$.country')=country GROUP BY continent) 
+ORDER BY num_wineries DESC;

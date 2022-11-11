@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Get namespace name
+FILE=aerospike/namespace.txt
+if [ -f "$FILE" ]; then
+    namespace=`cat aerospike/namespace.txt`
+else
+    namespace=test
+fi
+
+# Get cluster name
+FILE=aerospike/clustername.txt
+if [ -f "$FILE" ]; then
+    cluster_name=`cat aerospike/clustername.txt`
+else
+    cluster_name=document-demo
+fi
+
+#Start clients if not already
+aerolab cluster start -n ${cluster_name}
+aerolab cluster start -n countries
+aerolab client start -n trino
+aerolab client start -n jupyter
+
+# Get Jupyter client IP
+clients=$( aerolab client list --json )
+
+read -r -d '' IPADDRESS <<EOF
+function run() {
+    let clients = JSON.parse(\`$clients\`);
+    let ipAddress = clients[clients.findIndex(x => x.ClusterName === 'jupyter')].IpAddress + ':8888';
+    return ipAddress;
+}
+EOF
+
+jupyter=$( osascript -l 'JavaScript' <<< "${IPADDRESS}" )
+
+# Get jupyter token
+FILE=jupyter/token.txt
+if [ -f "$FILE" ]; then
+    token=`cat jupyter/token.txt`
+else
+    token=""
+fi
+
+# Start jupyter notebook in new window
+osascript -e 'tell app "Terminal" to do script "aerolab client attach -n jupyter -- ./start-jupyter.sh"' 
+sleep 2
+osascript -e 'do shell script "open http://'${jupyter}'?token='${token}'"'
+
+# Start trino client/server in new window
+sleep 2
+osascript -e 'tell app "Terminal" to do script "aerolab client attach -n trino -- ./start-trino.sh -n '${namespace}'"' -e 'tell app "Terminal" to activate'

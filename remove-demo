@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get cluster name
+FILE=aerospike/clustername.txt
+if [ -f "$FILE" ]; then
+    cluster_name=`cat aerospike/clustername.txt`
+else
+    cluster_name=document-demo
+fi
+
+rm -rf aerospike/aerospike.conf aerospike/clustername.txt aerospike/namespace.txt jupyter/notebook.ipynb jupyter/start-jupyter.sh jupyter/token.txt 
+
+aerolab client destroy -n trino -f
+aerolab client destroy -n jupyter -f
+aerolab cluster destroy -n ${cluster_name} -f
+aerolab cluster destroy -n countries -f

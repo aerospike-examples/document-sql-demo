@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Get cluster name
+FILE=aerospike/clustername.txt
+if [ -f "$FILE" ]; then
+    cluster_name=`cat aerospike/clustername.txt`
+else
+    cluster_name=document-demo
+fi
+
+aerolab client stop -n trino
+aerolab client stop -n jupyter
+aerolab cluster stop -n ${cluster_name}
+aerolab cluster stop -n countries

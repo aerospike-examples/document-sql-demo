@@ -1,0 +1,111 @@
+#!/bin/bash
+
+# Assign arguments
+while getopts C:c:t:a:n: flag
+do
+    case "${flag}" in
+        C) cluster_name=${OPTARG};; # Cluster name
+        c) count=${OPTARG};; # Number of nodes
+        t) trino_version=${OPTARG};; # Trino server version, e.g. 399
+        a) aerospike_trino=${OPTARG};; # Aerospike Trino connector version, e.g. 4.2.1-391 
+        n) namespace=${OPTARG};; # Aerospike cluster namespace, e.g. test
+    esac
+done
+
+# Set defaults
+if [ -z "$cluster_name" ]; then cluster_name="document-demo"; fi
+if [ -z "$count" ]; then count=1; fi
+if [ -z "$trino_version" ]; then trino_version="399"; fi
+if [ -z "$aerospike_trino" ]; then aerospike_trino="4.2.1-391"; fi
+if [ -z "$namespace" ]; then namespace="demo"; fi
+
+# Update aerospike.conf
+export NAMESPACE_NAME=$namespace
+export CLUSTER_NAME=$cluster_name
+envsubst < aerospike/aerospike.conf.template > aerospike/aerospike.conf
+
+# Export namespace and cluster names 
+cat << EOF > aerospike/namespace.txt
+${namespace}
+EOF
+
+cat << EOF > aerospike/clustername.txt
+${cluster_name}
+EOF
+
+# Create the aerospike cluster
+aerolab cluster create --name=${cluster_name} --count=${count} --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf
+
+# Create wine-regions cluster
+aerolab cluster create --name=countries --count=1 --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf
+aerolab files upload --name=countries aerospike/countries.asb countries.asb
+aerolab files upload --name=countries aerospike/restore.sh restore.sh
+aerolab attach shell --name=countries -- ./restore.sh && kill $PPID
+
+# Get cluster IP's 
+cluster=$( aerolab cluster list --json )
+
+read -r -d '' IPLIST <<EOF
+function run() {
+    let hostList1 = [];
+    let hostList2;
+    let cluster = JSON.parse(\`$cluster\`);
+    for(let i = 0; i < cluster.length; i++){
+        if(cluster[i].ClusterName === 'wine-regions'){
+            hostList2 = cluster[i].IpAddress + ':3000';
+        }
+        else{
+            hostList1.push(cluster[i].IpAddress + ':3000');
+        }
+    }
+    return hostList1.join(',') + '|' + hostList2;
+}
+EOF
+
+host_list=$( osascript -l 'JavaScript' <<< "${IPLIST}" )
+host_list1=(${host_list//|/ })
+host_list2=(${host_list##*|})
+
+# Create trino server/client, copy install script and run
+aerolab client create base --group-name=trino
+aerolab files upload --name=trino --client trino/trino-install.sh trino-install.sh
+aerolab files upload --name=trino --client trino/start-trino.sh start-trino.sh 
+aerolab client attach -n trino -- ./trino-install.sh -h ${host_list1} -c ${host_list2} -n ${namespace} -t ${trino_version} -a ${aerospike_trino} && kill $PPID
+
+# Update notebook.ipynb
+hosts=(${host_list1//,/ })
+host=(${hosts[0]//:/ }[0])
+
+export HOST=$host
+export NAMESPACE=$namespace
+
+envsubst < jupyter/notebook.template > jupyter/notebook.ipynb
+
+# Create jupyter tokenaerolab files upload --name jupyter --client jupyter/wine-data.json home/jovyan/wine-data.json
+jupyter_token=$( openssl rand -hex 40 )
+
+# Store token
+cat << EOF > jupyter/token.txt
+${jupyter_token}
+EOF
+
+# Create start-jupyter.sh
+cat << EOF > jupyter/start-jupyter.sh
+#!/bin/bash
+
+su - jovyan -c "jupyter lab --no-browser --ip=\`hostname -I\` --port=8888 --ServerApp.token=${jupyter_token}"
+EOF
+
+chmod +x jupyter/start-jupyter.sh
+
+# Create jupyter server/client, copy install script and run
+aerolab client create tools --group-name=jupyter
+aerolab files upload --name=jupyter --client jupyter/jupyter-install.sh jupyter-install.sh
+aerolab files upload --name=jupyter --client jupyter/start-jupyter.sh start-jupyter.sh
+aerolab files upload --name=jupyter --client jupyter/notebook.ipynb notebook.ipynb
+aerolab files upload --name=jupyter --client jupyter/wine-data.json wine-data.json 
+aerolab client attach -n jupyter -- ./jupyter-install.sh && kill $PPID 
+
+rm -rf aerospike-server-enterprise-6.1.0.3-ubuntu20.04.x86_64.tgz
+
+echo "Setup complete"

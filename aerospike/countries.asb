@@ -1,0 +1,2139 @@
+Version 3.1
+# namespace demo
+# first-file
++ k I 45
++ n demo
++ d JFAsT5O6Ymsq7fOuX0wKYfpdL9U=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Kyrgyzstan
+- S region 12 Central Asia
+- S continent 4 Asia
+- I gdppc 5036
+- I population 6630623
++ k I 145
++ n demo
++ d W3DfYpocsbsLCAV3McKIKsjNoJY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Cyprus
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 40107
+- I population 1251488
++ k I 121
++ n demo
++ d Z3AEOpunejUuaHSuFkV41c+y0LE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Chile
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 23366
+- I population 19603733
++ k I 78
++ n demo
++ d bHGueHbBq85ReH55z2J0ptUoKQM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Dominica
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 11072
+- I population 72737
++ k I 47
++ n demo
++ d ixHr9e490kd1Y74yzp9eV+ppq94=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Pakistan
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 5150
+- I population 235824862
++ k I 34
++ n demo
++ d j9GSXzHip1xwxLeTkifxv3bPVLk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 32 Micronesia (Federated States of)
+- S region 10 Micronesia
+- S continent 7 Oceania
+- I gdppc 3446
+- I population 114164
++ k I 175
++ n demo
++ d m2EcM9k/TK92fNmSPkRUNiRHn8Y=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Ireland
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 94392
+- I population 5023109
++ k I 140
++ n demo
++ d mALNwMj843TbI09MijK4She9UY8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Pitcairn
+- S region 9 Polynesia
+- S continent 7 Oceania
+- I gdppc 34103
+- I population 39857145
++ k I 123
++ n demo
++ d 8rIJl5y+QJDCxgmRLEA0UezaUH0=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 19 Trinidad and Tobago
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 25031
+- I population 1531044
++ k I 42
++ n demo
++ d QGMvr0Lcorwm0EVZq8Odh9arF58=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Congo
+- S region 13 Middle Africa
+- S continent 6 Africa
+- I gdppc 4188
+- I population 5970424
++ k I 91
++ n demo
++ d QsMSF/8EKC5GshQrHjy1Ja2FiGA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Sri Lanka
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 13214
+- I population 21832143
++ k I 81
++ n demo
++ d x/OFhm8DL3I+v0KErKmD+3MjzlQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Fiji
+- S region 9 Melanesia
+- S continent 7 Oceania
+- I gdppc 11567
+- I population 929766
++ k I 147
++ n demo
++ d 6mPWuSsij7pQoCkDqqV2m7NQT3s=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Czechia
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 40618
+- I population 10493986
++ k I 29
++ n demo
++ d 7cM/omddvGTf9OtjPyx6BSMCVQo=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Haiti
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 2916
+- I population 11584996
++ k I 132
++ n demo
++ d PGXviRbSiiVpA4jeiswrPZgiCrI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Oman
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 30178
+- I population 4576298
++ k I 128
++ n demo
++ d iPWhkUqiQcolQOVPV135xH7xjtI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Croatia
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 27717
+- I population 4030358
++ k I 3
++ n demo
++ d srXYPu+Cv0UMQzT0dcEhCNHSQqM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Malawi
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 993
+- I population 20405317
++ k I 146
++ n demo
++ d acZDTqcJjSW0ecOuynKB90eXqVc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Israel
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 40547
+- I population 9038309
++ k I 167
++ n demo
++ d ecaivpSe8UPrOQdN9FL0p3z0s7g=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 San Marino
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 58427
+- I population 33660
++ k I 56
++ n demo
++ d mjbPPMgKk74yJk1UGl+KQSXL+Yg=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Mauritania
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 5834
+- I population 4736139
++ k I 137
++ n demo
++ d /7abAAzCS1dqL6xwu3zgs7ZuqLA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Hungary
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 33030
+- I population 9967308
++ k I 13
++ n demo
++ d E4dFbh9VThlhR4eCw0uJckaa0dw=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Togo
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 2199
+- I population 8848699
++ k I 111
++ n demo
++ d XAd55CTw8zxIjKhJe44BKgOsdDE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 19 Antigua and Barbuda
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 18618
+- I population 93763
++ k I 150
++ n demo
++ d o0eYHvSD+KUe6t+y5pqWJd4lPjk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 New Zealand
+- S region 25 Australia and New Zealand
+- S continent 7 Oceania
+- I gdppc 42018
+- I population 5185288
++ k I 31
++ n demo
++ d Fkhef5aR6iXGakD6xCnq/VH87dw=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Zambia
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 3342
+- I population 20017675
++ k I 0
++ n demo
++ d JajeZUic701c/krCLK3F59cto+s=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Burundi
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 760
+- I population 12889576
++ k I 27
++ n demo
++ d PVmmUG64457u9QY1/IOChSg8uTs=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Tanzania
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 2821
+- I population 65497748
++ k I 88
++ n demo
++ d lmlVppUpPPISC/Feg+6RDZSw8Oc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Paraguay
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 12881
+- I population 6780744
++ k I 16
++ n demo
++ d rrktS7W1wcgrEXfAFWS4Y16/slM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Gambia
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 2276
+- I population 2705992
++ k I 144
++ n demo
++ d 4Vk9EAH/Wr9Oaw77agPYTLikkRA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Slovenia
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 40067
+- I population 2119844
++ k I 9
++ n demo
++ d 8CkbS4sPkbzYJmAHL0bxrswQpvE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Chad
+- S region 13 Middle Africa
+- S continent 6 Africa
+- I gdppc 1611
+- I population 17723315
++ k I 58
++ n demo
++ d J4otf55HHDoiVxcna1gbux0o3qg=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Belize
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 6046
+- I population 405272
++ k I 50
++ n demo
++ d Q1rmJOBxPSW2oLajYanM7P2nepo=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Myanmar
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 5242
+- I population 54179306
++ k I 10
++ n demo
++ d ocpRU4lViChg8WhdPgv7W+A7pY4=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 12 Sierra Leone
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 1725
+- I population 8605718
++ k I 110
++ n demo
++ d KHwQlaWRhkigLrExF35Tzis8yUA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 18 Dominican Republic
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 18608
+- I population 11228821
++ k I 12
++ n demo
++ d NuynCxPhWvYT+lkKgKG5jen4T2Q=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Yemen
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 1927
+- I population 33696614
++ k I 154
++ n demo
++ d OgweHMpDQnnli6EkJB56isUjRDI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 South Korea
+- S region 12 Eastern Asia
+- S continent 4 Asia
+- I gdppc 44621
+- I population 51815810
++ k I 141
++ n demo
++ d 0EzY04aP9VlpKWbCiWRvt17uvaQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Lithuania
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 38824
+- I population 2750055
++ k I 92
++ n demo
++ d 2Vy3xoDYX/+oKIlLQckCezincJA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Armenia
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 13261
+- I population 2780469
++ k I 162
++ n demo
++ d 95wpwM1kd0B/wPtoGymV9T1t8l4=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Germany
+- S region 14 Western Europe
+- S continent 6 Europe
+- I gdppc 54076
+- I population 83369843
++ k I 74
++ n demo
++ d GR3xW/BYNn4wOeBzYEtI/QHEUvc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Tunisia
+- S region 15 Northern Africa
+- S continent 6 Africa
+- I gdppc 10120
+- I population 12356117
++ k I 80
++ n demo
++ d 7s3/9MkSWC/BtqH9XNQTJuzD/8A=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Lebanon
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 11564
+- I population 5489739
++ k I 107
++ n demo
++ d CM5csK/qh2E/5r7/FL3/gnrn8LA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Colombia
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 17192
+- I population 1425887337
++ k I 11
++ n demo
++ d MO8nN6UJ77VUBx8ayIlwJT+EAeY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Eritrea
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 1821
+- I population 3684032
++ k I 1
++ n demo
++ d Vl8WvUxhlLdTri4N9mAs8piEBZA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 South Sudan
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 791
+- I population 10913164
++ k I 153
++ n demo
++ d Zq+rMFOuVFmIWKUsgAM6TnBPEQw=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 2 UK
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 44117
+- I population 67508936
++ k I 61
++ n demo
++ d ph80NL51zs0aL7fMXzAXoNrXsk0=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Angola
+- S region 13 Middle Africa
+- S continent 6 Africa
+- I gdppc 6932
+- I population 35588987
++ k I 84
++ n demo
++ d DuDRX55JskNXtkiCY1luIZK2Dno=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 12 South Africa
+- S region 15 Southern Africa
+- S continent 6 Africa
+- I gdppc 12032
+- I population 59893885
++ k I 2
++ n demo
++ d jRChVu84C/lcXb1E2M3MmzxkKOs=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Somalia
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 925
+- I population 17597511
++ k I 103
++ n demo
++ d wwDywQ1zITge3OQJeL887BpIjWU=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 12 Turkmenistan
+- S region 12 Central Asia
+- S continent 4 Asia
+- I gdppc 16520
+- I population 6430770
++ k I 32
++ n demo
++ d y1ApUsU31Pfw4sg26r6IoBnw158=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 Timor-Leste
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 3382
+- I population 1341296
++ k I 172
++ n demo
++ d hzG8gZX/fG8V7CS+l0SATEhPWho=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Norway
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 65800
+- I population 5434319
++ k I 89
++ n demo
++ d IxL1f8KAwDLCtr6AcdHzeKuOk1E=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Iran
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 13073
+- I population 88550570
++ k I 94
++ n demo
++ d SlK8bW7sGi/V0RdwVlOr9h09a7o=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Albania
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 14218
+- I population 2842321
++ k I 71
++ n demo
++ d UMKJGSGGHF9SlFWtjag1bO9T59o=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Nauru
+- S region 10 Micronesia
+- S continent 7 Oceania
+- I gdppc 9856
+- I population 12668
++ k I 55
++ n demo
++ d ciKKScvgOcic/iMoOHkNX10alAk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Ghana
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 5693
+- I population 33475870
++ k I 104
++ n demo
++ d hhJzvdQlJzOjFdYZa5c25RT/Eq4=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 15 North Macedonia
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 16712
+- I population 2093599
++ k I 15
++ n demo
++ d rnKeNZPNZJCd7LwUH2jE5j3cDXU=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 12 Burkina Faso
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 2262
+- I population 22673762
++ k I 22
++ n demo
++ d K2MjTcTy7lTKYS+EoheUPRmUylc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Uganda
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 2574
+- I population 47249585
++ k I 133
++ n demo
++ d yfOaLlv59AhA+zeguR6m58pYz78=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Turkey
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 30253
+- I population 85341241
++ k I 115
++ n demo
++ d buRr2LvzPogdkSLTfwOBB1470Ys=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Guyana
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 19684
+- I population 808726
++ k I 120
++ n demo
++ d lhR4V75Hrgv1OpZoV43Xk7NnE34=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Uruguay
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 22459
+- I population 3422794
++ k I 93
++ n demo
++ d 9jTaTYUbdrpnMl5qWkLSICgLlzQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Barbados
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 13553
+- I population 281635
++ k I 64
++ n demo
++ d B/WODB4bBT0tkc9YMw6UmDhd/cM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 3 Lao
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 8111
+- I population 7529475
++ k I 114
++ n demo
++ d VPU+WNG6egVwu939hs2bprGxZHE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Maldives
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 19609
+- I population 523787
++ k I 98
++ n demo
++ d foWZ3flj+JIlo3NEZ3a9VGn69IU=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Brazil
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 14916
+- I population 215313498
++ k I 36
++ n demo
++ d gWVGKpTCatzicqqNLOVzzg5tyx8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Cameroon
+- S region 13 Middle Africa
+- S continent 6 Africa
+- I gdppc 3646
+- I population 27914536
++ k I 30
++ n demo
++ d JCYc6HtvDaCs6u9gx4tM3nM3mgM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Comoros
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 3048
+- I population 836774
++ k I 4
++ n demo
++ d QtYW6DtQYvMVFaMGKKlS5SoGo8Q=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Congo
+- S region 13 Middle Africa
+- S continent 6 Africa
+- I gdppc 1106
+- I population 99010212
++ k I 138
++ n demo
++ d Xla3isliW3ALuNC4WEh9KkO9Uds=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Portugal
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 34025
+- I population 3252407
++ k I 67
++ n demo
++ d oQY1XH7UPRA0M/EQN3rij8kWMQQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 El Salvador
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 8422
+- I population 6336392
++ k I 96
++ n demo
++ d t2auN+Mq1UN6mklJP01ioygIQLk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Azerbaijan
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 14431
+- I population 10358074
++ k I 99
++ n demo
++ d DvdIvkyLzSnPsaSLoXDudnSw7vI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Georgia
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 14918
+- I population 3744385
++ k I 126
++ n demo
++ d Okc9ueM12ns4MKoHorfrBdqoVCs=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Panama
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 27003
+- I population 4408581
++ k I 171
++ n demo
++ d U9cxRdd8wftIgZdSDN0JY5mTa3Q=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 2 US
+- S region 16 Northern America
+- S continent 13 North America
+- I gdppc 63416
+- I population 338289857
++ k I 17
++ n demo
++ d CSj6m6MuwANvX4RroAjfTMX4gnY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Rwanda
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 2337
+- I population 13776698
++ k I 19
++ n demo
++ d DJi0DdSVlAI/EUtN+gfSlRgpWyE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 Afghanistan
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 2390
+- I population 41128771
++ k I 38
++ n demo
++ d Z0gHw4g66z84sadZFz38XeRHXp8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 16 Marshall Islands
+- S region 10 Micronesia
+- S continent 7 Oceania
+- I gdppc 3786
+- I population 41569
++ k I 135
++ n demo
++ d cVh63Ce6DrfmW1ThxptovLUjR4E=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Latvia
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 31509
+- I population 1850651
++ k I 43
++ n demo
++ d 6QiuvCeKoymOHwu9djcyIASLmas=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Cambodia
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 4695
+- I population 16767842
++ k I 161
++ n demo
++ d NOnwLrV1Q/q9b/n5OMbcIvckI30=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Australia
+- S region 25 Australia and New Zealand
+- S continent 7 Oceania
+- I gdppc 51680
+- I population 26177413
++ k I 7
++ n demo
++ d a9m7T0wODnObHz52QZv266uRPdE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Liberia
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 1557
+- I population 5302681
++ k I 62
++ n demo
++ d 9flQgyRUQjOL4bKnGvMY8B4Me8Q=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Uzbekistan
+- S region 12 Central Asia
+- S continent 4 Asia
+- I gdppc 7449
+- I population 34627652
++ k I 51
++ n demo
++ d EErVHCcGkOOrjk+EV/GfA/9QuMg=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Bangladesh
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 5307
+- I population 171186372
++ k I 168
++ n demo
++ d Jnr7LRl0TXgnZuzHvLoijZ1Fe3U=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 3 UAE
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 58753
+- I population 9441129
++ k I 139
++ n demo
++ d UfrrdFf2lXWGRmPBot62opXhgus=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Poland
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 34043
+- I population 10270865
++ k I 108
++ n demo
++ d aTqC82LSe64HjovZEWuQyagKhyA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 17 Equatorial Guinea
+- S region 13 Middle Africa
+- S continent 6 Africa
+- I gdppc 17788
+- I population 1674908
++ k I 130
++ n demo
++ d bPrDp1kM9cI9HEpNCy8Zmupx+CM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Greece
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 28748
+- I population 10384971
++ k I 68
++ n demo
++ d t4oox/jMqQgGvZ5Ey+RpHiQcymI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 Philippines
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 8452
+- I population 115559009
++ k I 102
++ n demo
++ d t1oU0xydVr2vrJZcu1FUEL4qenE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Gabon
+- S region 13 Middle Africa
+- S continent 6 Africa
+- I gdppc 15970
+- I population 2388992
++ k I 76
++ n demo
++ d JmuyvQt8yNoCpE7Db6PjESAfzH4=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Viet Nam
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 10869
+- I population 98186856
++ k I 134
++ n demo
++ d hysb0/8aw5Gi51I/W0lccXyUKHU=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Romania
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 30526
+- I population 19659267
++ k I 119
++ n demo
++ d SnxoQHUbFne/9rcwaDC5Xs0tdlM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Argentina
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 20751
+- I population 45510318
++ k I 95
++ n demo
++ d nxxKtkNKXNy9PlshMZ8aKUhZCHE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Palau
+- S region 10 Micronesia
+- S continent 7 Oceania
+- I gdppc 14309
+- I population 18055
++ k I 75
++ n demo
++ d uIxaVAvmTvPBbSn17bbAYYgilgw=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Jordan
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 10306
+- I population 11285869
++ k I 127
++ n demo
++ d gm1/PL1UskemFCscOO4w/7zqeOc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Malaysia
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 27402
+- I population 33938221
++ k I 73
++ n demo
++ d ya0LCaJDmZY6H4vbIVnV1UkJOQI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Iraq
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 10003
+- I population 44496122
++ k I 86
++ n demo
++ d SJ6xq3Px6hiNwanbcPa3WcLjnNM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Indonesia
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 12222
+- I population 275501339
++ k I 160
++ n demo
++ d VR4X4LiQHwUHvK7eSAXqHBXnnB0=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Belgium
+- S region 14 Western Europe
+- S continent 6 Europe
+- I gdppc 51096
+- I population 11655930
++ k I 163
++ n demo
++ d p541c/TM9J5hX9Ig8fSnWdwR5+s=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Sweden
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 54146
+- I population 10549347
++ k I 77
++ n demo
++ d 8Z7IEtQ6HWxydNhH/C8BcguWu/I=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Ecuador
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 11009
+- I population 18001000
++ k I 24
++ n demo
++ d +a7gnXI3wxkhsv+nBZ1TkkzAFQA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Guinea
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 2604
+- I population 13859341
++ k I 129
++ n demo
++ d /96b4B6gvo2mSNNzKAZxV/Q6d7U=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Russia
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 27903
+- I population 144713314
++ k I 136
++ n demo
++ d CP8K0tFLUwzaUFfat9MElhyOg/c=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Slovakia
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 32709
+- I population 5643453
++ k I 37
++ n demo
++ d cs/G1KdPnXgNTgaPyP7LZZqr8mM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Tajikistan
+- S region 12 Central Asia
+- S continent 4 Asia
+- I gdppc 3676
+- I population 9952787
++ k I 44
++ n demo
++ d n18xXHGZsKDZWa9y+RjhiSwfJ9s=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Kenya
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 4926
+- I population 54027487
++ k I 151
++ n demo
++ d 7p/9yI+YvX39ILDGb2uF5ZWP/74=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Japan
+- S region 12 Eastern Asia
+- S continent 4 Asia
+- I gdppc 42248
+- I population 123951692
++ k I 23
++ n demo
++ d C5EI3S5V0yR7RdqhV0fdTlj2JcM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Vanuatu
+- S region 9 Melanesia
+- S continent 7 Oceania
+- I gdppc 2586
+- I population 326740
++ k I 106
++ n demo
++ d EBG3KqFW2ZjLwQrZspnWHstk89I=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 China
+- S region 12 Eastern Asia
+- S continent 4 Asia
+- I gdppc 17192
+- I population 1425887337
++ k I 46
++ n demo
++ d REEn7Y9tRqCPG9ckGnR6i0yvpbM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Djibouti
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 5096
+- I population 1120849
++ k I 156
++ n demo
++ d icEK4wyi/QyXxlPZuoQwzlpun44=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 12 Saudi Arabia
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 46811
+- I population 36408820
++ k I 125
++ n demo
++ d iQHnYIq8IPSOlu9CoTShz7rOQnI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Kazakhstan
+- S region 12 Central Asia
+- S continent 4 Asia
+- I gdppc 26565
+- I population 19397998
++ k I 59
++ n demo
++ d w1Fn/dMOBo+a6oNb99rd7xTVHfk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Tonga
+- S region 9 Polynesia
+- S continent 7 Oceania
+- I gdppc 6191
+- I population 106858
++ k I 53
++ n demo
++ d deN5m4e+KugmdAA/WEhY4ju/6pI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Nicaragua
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 5575
+- I population 6948392
++ k I 33
++ n demo
++ d j5OG9+HRTnTxqe6fkrZrWMd/dUQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Benin
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 3437
+- I population 13352864
++ k I 40
++ n demo
++ d pMOT3D+KWJPfkH0L0eWmCsGOWws=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Nepal
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 4061
+- I population 30547580
++ k I 26
++ n demo
++ d JYT168KNI+9tPaL4Z59D/q7ySKc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Lesotho
+- S region 15 Southern Africa
+- S continent 6 Africa
+- I gdppc 2718
+- I population 2305825
++ k I 97
++ n demo
++ d nvZ6O56Olix+FTbcIhxMWYWOgWk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Suriname
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 14513
+- I population 618040
++ k I 173
++ n demo
++ d qOZ3xAmb4qtF4YHq3kTK9as6y20=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 Switzerland
+- S region 14 Western Europe
+- S continent 6 Europe
+- I gdppc 72874
+- I population 8740472
++ k I 18
++ n demo
++ d yhY8IBNi4lOsMUYf7LdsBLEdemA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 13 Guinea-Bissau
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 2348
+- I population 2105566
++ k I 57
++ n demo
++ d gflwdSYdnf4ZzaB0Jo6MGqCYwj8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Libya
+- S region 15 Northern Africa
+- S continent 6 Africa
+- I gdppc 5893
+- I population 6812341
++ k I 14
++ n demo
++ d x2m6/4ZXlwAcAb4P7vU40/HklYY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Kiribati
+- S region 10 Micronesia
+- S continent 7 Oceania
+- I gdppc 2200
+- I population 131232
++ k I 122
++ n demo
++ d zcktIjVCP7qLJI/p5f2JXQJB1O0=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Bulgaria
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 23817
+- I population 6781953
++ k I 72
++ n demo
++ d 4PkWNCGw5PJKDrbo//hr8R2ubW8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Jamaica
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 9975
+- I population 2827377
++ k I 164
++ n demo
++ d 48nZpZjiNifkylE/4flH87XN+8Y=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Austria
+- S region 14 Western Europe
+- S continent 6 Europe
+- I gdppc 55218
+- I population 8939617
++ k I 69
++ n demo
++ d 9nk+iP+YCBSKsFJm0ae12Kp/81I=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Eswatini
+- S region 15 Southern Africa
+- S continent 6 Africa
+- I gdppc 8957
+- I population 1201670
++ k I 90
++ n demo
++ d EQrkfHNMYXoZzSxG30IE5rmOS84=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Ukraine
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 13110
+- I population 39701739
++ k I 35
++ n demo
++ d FEq8lU/Oe1iNRwefM4H2ax4V7E8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Senegal
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 3478
+- I population 17316449
++ k I 159
++ n demo
++ d NCyY9H1fqYyogfH6kNPm9cBf7eI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Finland
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 49853
+- I population 5540745
++ k I 8
++ n demo
++ d fkzioeFzdj/gZ9o6lgJqBm+ZJBQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Madagascar
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 1599
+- I population 29611714
++ k I 63
++ n demo
++ d k+x2/MadwuDVoBqs2Nz9K4T4ofQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Morocco
+- S region 15 Northern Africa
+- S continent 6 Africa
+- I gdppc 7620
+- I population 37457971
++ k I 82
++ n demo
++ d nJzfy6oomaCmjbi/yZeVPzupjyY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Mongolia
+- S region 12 Eastern Asia
+- S continent 4 Asia
+- I gdppc 11825
+- I population 3398366
++ k I 48
++ n demo
++ d wMxgC46+hfnNG5Vmlapp2ktQ1cU=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Venezuela
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 5178
+- I population 28301696
++ k I 117
++ n demo
++ d yRxpLX3iCDRRzJxZyLhCUDmQFqA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Belarus
+- S region 14 Eastern Europe
+- S continent 6 Europe
+- I gdppc 20187
+- I population 9534954
++ k I 112
++ n demo
++ d T73v0N2RnoDEQPiUlsoNVOF/0hI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Mexico
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 19130
+- I population 127504125
++ k I 39
++ n demo
++ d XF2K2Dd3R21BL3FRKLVRkIuQMHY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 16 Papua New Guinea
+- S region 9 Melanesia
+- S continent 7 Oceania
+- I gdppc 3833
+- I population 10142619
++ k I 85
++ n demo
++ d X+3D+JyMGQ2mnrdDnPNiSeh7+pw=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Bhutan
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 12060
+- I population 782455
++ k I 177
++ n demo
++ d eC3cnLKqw15cySSLBCkk+0p1PIM=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Luxembourg
+- S region 14 Western Europe
+- S continent 6 Europe
+- I gdppc 118001
+- I population 647599
++ k I 49
++ n demo
++ d e81qJMYW8Y7BZXHSdGbe5AvsZek=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Nigeria
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 5187
+- I population 218541212
++ k I 21
++ n demo
++ d nN0algIdQONVKkGrtJvaZbaBELc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 15 Solomon Islands
+- S region 9 Melanesia
+- S continent 7 Oceania
+- I gdppc 2455
+- I population 724273
++ k I 109
++ n demo
++ d jH/IF/G4I1uC5F2pRyVJ/NsIJKw=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Thailand
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 18236
+- I population 71697030
++ k I 157
++ n demo
++ d nLBC8gRX1te2lfQhssf9HVGgnGA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Canada
+- S region 16 Northern America
+- S continent 13 North America
+- I gdppc 48720
+- I population 38454327
++ k I 65
++ n demo
++ d qKDiYy+zlgx2DmSr9c0qWnfbY9s=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Guatemala
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 8293
+- I population 17843908
++ k I 149
++ n demo
++ d toCRTqMfsfPPCYkJ9RHYtFfAzSc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Kuwait
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 41627
+- I population 4268873
++ k I 176
++ n demo
++ d xMCEIPUbafU6Kdyh7U2Kthqfd4E=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Singapore
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 97057
+- I population 5975689
++ k I 25
++ n demo
++ d OHKkefsT3rQnvYjVN72KtR9sBAE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Zimbabwe
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 2622
+- I population 16320537
++ k I 79
++ n demo
++ d cdI8cAHK3RbfVN1lRgYlIEl4w68=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Algeria
+- S region 15 Northern Africa
+- S continent 6 Africa
+- I gdppc 11112
+- I population 44903225
++ k I 28
++ n demo
++ d +QKEl74eOPhXkNsQU7hTu3zGxUs=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Ethiopia
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 2908
+- I population 123379924
++ k I 166
++ n demo
++ d IfNqbiQyr/rYfei4xXYt5gnlC50=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 Netherlands
+- S region 14 Western Europe
+- S continent 6 Europe
+- I gdppc 57534
+- I population 17564014
++ k I 54
++ n demo
++ d KtNRUXkwXWXhZUmLSGWXX8ZxOow=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Samoa
+- S region 9 Polynesia
+- S continent 7 Oceania
+- I gdppc 5653
+- I population 222382
++ k I 143
++ n demo
++ d 4YTmOcrKke594V2V4OCWXtfjzRg=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Spain
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 39121
+- I population 47558630
++ k I 113
++ n demo
++ d 5mR4TDPxAmgTEB7XgGJ2/XhdSOo=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Serbia
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 19146
+- I population 7221365
++ k I 155
++ n demo
++ d NCUbvD7pE6N8R680jjVSfO0Tu0M=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 France
+- S region 14 Western Europe
+- S continent 6 Europe
+- I gdppc 46062
+- I population 64626628
++ k I 116
++ n demo
++ d fyXQEhQv84ldkfeQG7pMppVaYY0=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Costa Rica
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 19990
+- I population 5180829
++ k I 66
++ n demo
++ d hhX0x3gP5vxsJte/BSW6ZYynNec=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Bolivia
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 8344
+- I population 12224110
++ k I 142
++ n demo
++ d sQX5C1KzYofezmZJ6+dBrJ4xAEQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Estonia
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 38834
+- I population 1326062
++ k I 20
++ n demo
++ d tNVreGMXXsCtmdKtnDB3tq4Qnxc=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Mali
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 2401
+- I population 22593590
++ k I 131
++ n demo
++ d esfucamQzMPqj+KcHuRC7739lss=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Aruba
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 29090
+- I population 106445
++ k I 60
++ n demo
++ d ijf/svTXcxg3gFv9o8IatDVnmWI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 India
+- S region 13 Southern Asia
+- S continent 4 Asia
+- I gdppc 6461
+- I population 1417173173
++ k I 174
++ n demo
++ d m5e477WcXeyPYNdf0b0DEUGk66M=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 11 Puerto Rico
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 34025
+- I population 2695122
++ k I 148
++ n demo
++ d LOg3grq7CQMyM92VJgk6Ipo7x68=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Italy
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 40861
+- I population 59037474
++ k I 152
++ n demo
++ d TzgHiAKdE3AgKLQTe054cEV1L94=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Malta
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 42856
+- I population 533286
++ k I 41
++ n demo
++ d X+jBbDGCJepbhiFkFepBLLpeG1w=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Sudan
+- S region 15 Northern Africa
+- S continent 6 Africa
+- I gdppc 4098
+- I population 46874204
++ k I 100
++ n demo
++ d hihnojI3LGztEWqLUc2tKesZe78=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 22 Bosnia and Herzegovina
+- S region 15 Southern Europe
+- S continent 6 Europe
+- I gdppc 15047
+- I population 3233526
++ k I 5
++ n demo
++ d qvg9WoWr6D3kzkquCw82x4ermn8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Niger
+- S region 14 Western Africa
+- S continent 6 Africa
+- I gdppc 1259
+- I population 26207977
++ k I 158
++ n demo
++ d j8pG+5xvfq+kzlDy+u184FvcSfY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Bahrain
+- S region 12 Western Asia
+- S continent 4 Asia
+- I gdppc 48766
+- I population 1472233
++ k I 170
++ n demo
++ d omq0X3tO+WDgnYa1uErtdghzbBY=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 6 Brunei
+- S region 18 South-eastern Asia
+- S continent 4 Asia
+- I gdppc 62371
+- I population 449002
++ k I 165
++ n demo
++ d 4AqeMmnoeLGyXq2qtST1PZMQEOQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Iceland
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 55596
+- I population 372899
++ k I 83
++ n demo
++ d EHu80tbX8erBgbdSFF/uRziz1wI=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 4 Peru
+- S region 13 South America
+- S continent 13 South America
+- I gdppc 11871
+- I population 34049588
++ k I 169
++ n demo
++ d Lkuk91ndbRd0NRWSsK/KCdHlM7w=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Denmark
+- S region 15 Northern Europe
+- S continent 6 Europe
+- I gdppc 58932
+- I population 5882261
++ k I 124
++ n demo
++ d NCvpJmKLNBMgsmRbiTcEsdnkGI8=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Seychelles
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 25414
+- I population 107118
++ k I 52
++ n demo
++ d sFuA/rCvgssBnXF17499Pp7oi7Y=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Honduras
+- S region 15 Central America
+- S continent 13 North America
+- I gdppc 5450
+- I population 10432860
++ k I 6
++ n demo
++ d 6ys7iba23QYLdbyuoAjlNGr9XOA=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 10 Mozambique
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 1277
+- I population 32969518
++ k I 87
++ n demo
++ d /VtDxszXS8IKvOR19PX25jHrvzk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 5 Egypt
+- S region 15 Northern Africa
+- S continent 6 Africa
+- I gdppc 12790
+- I population 110990103
++ k I 101
++ n demo
++ d A5xE96fU/BJRxj5KnXgObaQe6rE=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Grenada
+- S region 9 Caribbean
+- S continent 13 North America
+- I gdppc 15431
+- I population 125438
++ k I 70
++ n demo
++ d 6c2Q8ErjdWil1bv8QaEP8ALlFzw=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 7 Namibia
+- S region 15 Southern Africa
+- S continent 6 Africa
+- I gdppc 9396
+- I population 2567012
++ k I 118
++ n demo
++ d fI4fnHMgxRJr565IwA/ockRzFnk=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 9 Mauritius
+- S region 14 Eastern Africa
+- S continent 6 Africa
+- I gdppc 20292
+- I population 1299469
++ k I 105
++ n demo
++ d 0e6Y82lXFmwJI7rCBYROFTIxQhQ=
++ s countries
++ g 1
++ t 0
++ b 5
+- S country 8 Botswana
+- S region 15 Southern Africa
+- S continent 6 Africa
+- I gdppc 16893
+- I population 2630296

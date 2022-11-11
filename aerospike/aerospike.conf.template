@@ -1,0 +1,34 @@
+# Aerospike database configuration file for use with systemd.
+service {
+    proto-fd-max 15000
+    cluster-name ${CLUSTER_NAME}
+}
+logging {
+    file /var/log/aerospike.log {
+        context any info
+    }
+}
+network {
+    service {
+        address any
+        port 3000
+    }
+    heartbeat {
+        mode mesh
+        port 3002
+        interval 150
+        timeout 10
+    }
+    fabric {
+        port 3001
+    }
+    info {
+        port 3003
+    }
+}
+namespace ${NAMESPACE_NAME} {
+    replication-factor 2
+    memory-size 4G
+    default-ttl 0
+    storage-engine memory
+}
