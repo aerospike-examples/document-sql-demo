@@ -34,10 +34,10 @@ ${cluster_name}
 EOF
 
 # Create the aerospike cluster
-aerolab cluster create --name=${cluster_name} --count=${count} --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf
+aerolab cluster create --name=${cluster_name} --count=${count} --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf -v 6.1.0.2
 
 # Create wine-regions cluster
-aerolab cluster create --name=countries --count=1 --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf
+aerolab cluster create --name=countries --count=1 --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf -v 6.1.0.2
 aerolab files upload --name=countries aerospike/countries.asb countries.asb
 aerolab files upload --name=countries aerospike/restore.sh restore.sh
 aerolab attach shell --name=countries -- ./restore.sh && kill $PPID
