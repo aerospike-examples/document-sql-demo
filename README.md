@@ -10,7 +10,7 @@ For this demo you will need macOS (this demo can run on other operating systems,
 > 
 > You can use Docker Desktop instead of Kubelab, but will need to utilize a VPN to access container IP addresses. If using Kubelab, ensure Docker Desktop is **not** running.
 
-I highly recommend resizing the `rw data disk` to something higher than 4GB in KubeLab. Mine is set to 50GB. 
+Resizing the `rw data disk` to greater than 8GB in KubeLab is required. Mine is set to 50GB. 
 
 Once you have both applications up and running continue on.
 
@@ -32,7 +32,7 @@ Usage:
 
 Run the `start-demo` script to start the Trino and Jupyter server.
 
-Trino will launch into the CLI for running SQL queries and Jupyter will launch the notebook server and open in your browser.
+Trino will launch into the CLI for running SQL queries (in the trino-queries file) and Jupyter will launch the notebook server and open in your browser. Open the notebook.ipynb to start interacting with the database.
 
 ### Stop
 
