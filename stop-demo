@@ -8,7 +8,10 @@ else
     cluster_name=document-demo
 fi
 
-aerolab client stop -n trino
-aerolab client stop -n jupyter
 aerolab cluster stop -n ${cluster_name}
+sleep 3
 aerolab cluster stop -n countries
+sleep 3
+aerolab client stop -n trino
+sleep 3
+aerolab client stop -n jupyter

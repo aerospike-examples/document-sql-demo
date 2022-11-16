@@ -18,8 +18,13 @@ fi
 
 #Start clients if not already
 aerolab cluster start -n ${cluster_name}
+sleep 3
 aerolab cluster start -n countries
+sleep 3
+aerolab attach shell --name=countries -- ./restore.sh && kill $PPID
+sleep 3
 aerolab client start -n trino
+sleep 3
 aerolab client start -n jupyter
 
 # Get Jupyter client IP
