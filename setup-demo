@@ -118,6 +118,6 @@ aerolab files upload --name=jupyter --client jupyter/notebook.ipynb notebook.ipy
 aerolab files upload --name=jupyter --client jupyter/wine-data.json wine-data.json 
 aerolab client attach -n jupyter -- ./jupyter-install.sh && kill $PPID 
 
-rm -rf aerospike-server-enterprise-6.1.0.3-ubuntu20.04.x86_64.tgz
+rm -rf aerospike-server-enterprise-*.tgz
 
 echo "Setup complete"
