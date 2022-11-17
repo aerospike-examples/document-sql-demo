@@ -34,7 +34,7 @@ ${cluster_name}
 EOF
 
 # Create the aerospike cluster
-aerolab cluster create --name=document-demo --count=1 --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf -v 6.1.0.2
+aerolab cluster create --name=${cluster_name} --count=${count} --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf -v 6.1.0.2
 
 # Create wine-regions cluster
 aerolab cluster create --name=countries --count=1 --featurefile=aerospike/features.conf --customconf=aerospike/aerospike.conf -v 6.1.0.2
@@ -51,7 +51,7 @@ function run() {
     let hostList2;
     let cluster = JSON.parse(\`$cluster\`);
     for(let i = 0; i < cluster.length; i++){
-        if(cluster[i].ClusterName === 'wine-regions'){
+        if(cluster[i].ClusterName === 'countries'){
             hostList2 = cluster[i].IpAddress + ':3000';
         }
         else{
@@ -66,11 +66,23 @@ host_list=$( osascript -l 'JavaScript' <<< "${IPLIST}" )
 host_list1=(${host_list//|/ })
 host_list2=(${host_list##*|})
 
+cat << EOF > trino/aerospike.properties
+connector.name=aerospike
+aerospike.hostlist=$host_list1
+EOF
+
+cat << EOF > trino/aerospike2.properties
+connector.name=aerospike
+aerospike.hostlist=$host_list2
+EOF
+
 # Create trino server/client, copy install script and run
 aerolab client create base --group-name=trino
 aerolab files upload --name=trino --client trino/trino-install.sh trino-install.sh
-aerolab files upload --name=trino --client trino/start-trino.sh start-trino.sh 
-aerolab client attach -n trino -- ./trino-install.sh -h ${host_list1} -c ${host_list2} -n ${namespace} -t ${trino_version} -a ${aerospike_trino} && kill $PPID
+aerolab files upload --name=trino --client trino/start-trino.sh start-trino.sh
+aerolab files upload --name=trino --client trino/aerospike.properties aerospike.properties
+aerolab files upload --name=trino --client trino/aerospike2.properties aerospike2.properties
+aerolab client attach -n trino -- ./trino-install.sh -n ${namespace} -t ${trino_version} -a ${aerospike_trino} && kill $PPID
 
 # Update notebook.ipynb
 hosts=(${host_list1//,/ })

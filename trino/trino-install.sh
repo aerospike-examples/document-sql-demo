@@ -100,15 +100,8 @@ mkdir aerotmp trino-server/plugin/aerospike
 unzip aerospike.zip -d aerotmp
 find aerotmp/trino-aerospike-$aerospike_trino -name '*.jar' -exec cp {} trino-server/plugin/aerospike \;
 
-cat << EOF > trino-server/etc/catalog/aerospike.properties
-connector.name=aerospike
-aerospike.hostlist=$host_list
-EOF
-
-cat << EOF > trino-server/etc/catalog/aerospike2.properties
-connector.name=aerospike
-aerospike.hostlist=$host_list2
-EOF
+cp /aerospike.properties trino-server/etc/catalog/aerospike.properties
+cp /aerospike2.properties trino-server/etc/catalog/aerospike2.properties
 
 rm -rf aerotmp aerospike.zip
 

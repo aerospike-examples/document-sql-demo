@@ -18,14 +18,53 @@ fi
 
 #Start clients if not already
 aerolab cluster start -n ${cluster_name}
-sleep 3
 aerolab cluster start -n countries
-sleep 3
 aerolab attach shell --name=countries -- ./restore.sh && kill $PPID
-sleep 3
 aerolab client start -n trino
-sleep 3
 aerolab client start -n jupyter
+
+# Get cluster IP's 
+cluster=$( aerolab cluster list --json )
+
+read -r -d '' IPLIST <<EOF
+function run() {
+    let hostList1 = [];
+    let hostList2;
+    let cluster = JSON.parse(\`$cluster\`);
+    for(let i = 0; i < cluster.length; i++){
+        if(cluster[i].ClusterName === 'countries'){
+            hostList2 = cluster[i].IpAddress + ':3000';
+        }
+        else{
+            hostList1.push(cluster[i].IpAddress + ':3000');
+        }
+    }
+    return hostList1.join(',') + '|' + hostList2;
+}
+EOF
+
+host_list=$( osascript -l 'JavaScript' <<< "${IPLIST}" )
+echo $host_list
+host_list1=(${host_list//|/ })
+echo $host_list1
+host_list2=(${host_list##*|})
+echo $host_list2
+
+cat << EOF > trino/aerospike.properties
+connector.name=aerospike
+aerospike.hostlist=$host_list1
+EOF
+
+cat << EOF > trino/aerospike2.properties
+connector.name=aerospike
+aerospike.hostlist=$host_list2
+EOF
+
+aerolab files upload --name=trino --client trino/aerospike.properties /home/trino/trino-server/etc/catalog/aerospike.properties
+aerolab files upload --name=trino --client trino/aerospike2.properties /home/trino/trino-server/etc/catalog/aerospike2.properties
+
+aerolab client stop -n trino
+aerolab client start -n trino
 
 # Get Jupyter client IP
 clients=$( aerolab client list --json )
@@ -47,6 +86,17 @@ if [ -f "$FILE" ]; then
 else
     token=""
 fi
+
+# Update notebook.ipynb
+hosts=(${host_list1//,/ })
+host=(${hosts[0]//:/ }[0])
+
+export HOST=$host
+export NAMESPACE=$namespace
+
+envsubst < jupyter/notebook.template > jupyter/notebook.ipynb
+
+aerolab files upload --name=jupyter --client jupyter/notebook.ipynb /home/jovyan/notebook.ipynb
 
 # Start jupyter notebook in new window
 osascript -e 'tell app "Terminal" to do script "aerolab client attach -n jupyter -- ./start-jupyter.sh"' 
